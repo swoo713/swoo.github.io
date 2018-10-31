@@ -4,6 +4,58 @@
 <head>
   <meta charset="utf-8">
   <title> Samantha Woo's Portal</title>
+  <style>
+    body {
+      font-family: Futura, sans-serif;
+      align-content: center;
+    }
+
+
+    #container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: .2fr 1.6fr .2fr;
+      max-width: 80vw;
+      margin: auto;
+    }
+    header {
+      grid-row: 1;
+      grid-column: 1 / 5;
+      background-color: #FFE4E1;
+      padding-left: 3rem;
+      padding-bottom: 1rem;
+    }
+
+    .projects{
+      background-color: #FF1493;
+      grid-row: 2;
+      grid-column: 1/ 2;
+      padding-left: 2rem;
+    }
+
+    .blog{
+      background-color: #FFC0CB;
+      grid-row: 2;
+      grid-column: 2/ 3;
+      padding-left: 2rem;
+    }
+
+    .about {
+      background-color: #FFF0F5;
+      grid-row: 2;
+      grid-column: 3/ 4;
+      padding-left: 2rem;
+    }
+
+
+    footer {
+      background-color: #ee82ee;
+      grid-row: 3;
+      grid-column: 1 / 5;
+      text-align: center;
+      padding: 2rem;
+    }
+  </style>
 </head>
 
 <body>
@@ -13,8 +65,7 @@
 
           <img src="portalbanner.jpg" alt="banner" height="400" width="830"/>
     </header>
-
-    <section>
+    <section class="projects">
       <h2> My Work</h2>
       <h3>Projects</h3>
       <ul>
@@ -31,10 +82,14 @@
         <li><a href="#">Ex 06</a></li>
         <li><a href="#">Ex 07</a></li>
       </ul>
-      <h3>Visit my blog!</h3>
+    </section>
+    <section class="blog">
+      <h2>Visit my blog!</h2>
       <ul>
         <li><a href="Blog.html">Sam's Blog</a></li>
       </ul>
+    </section>
+  <section class="about">
     <h2> About </h2>
     <ul>
       <li><a href="descriptionofme.html">Description</a></li>
@@ -45,7 +100,7 @@
       <li><a href="inspirations.html">Inspirations</a></li>
       <li><a href="favewebsites.html">Websites I enjoy</a></li>
     </ul>
-    </section>
+  </section>
     <footer>
       <p> Sam Woo</p>
       <p> Contact:<a
