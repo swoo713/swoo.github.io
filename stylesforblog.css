@@ -10,6 +10,7 @@ header {
   font-family: 'Rubik Mono One', sans-serif;
   text-align: center;
   background-image: url("https://i.gifer.com/K7Pd.gif");
+  background-repeat: no-repeat;
 }
 /*Unordered list in the navbar is set to display flex with wrapping
 so at smaller size-mobile width--it wraps vertically in a row
