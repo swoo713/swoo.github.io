@@ -5,7 +5,7 @@
 }
 
 header {
-  font-family: 'Biryani', sans-serif;
+  font-family: 'Rubik Mono One', sans-serif;
   background: #a2d492;
   padding: 2rem;
   text-align: center;
@@ -49,7 +49,7 @@ which page you are on--in this case the home page*/
 }
 
 article {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   padding-left: 2rem;
   padding-right: 2rem;
 }
