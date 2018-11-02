@@ -1,12 +1,13 @@
 
 .pagecontainer {
-  margin: auto;
-  width: 90vw;
+  margin: 0px;
+  width: auto;
+  height: auto;
+  padding:0px
 }
 
 header {
   font-family: 'Rubik Mono One', sans-serif;
-  padding: 2rem;
   text-align: center;
   background-image: url("https://i.gifer.com/K7Pd.gif");
 }
