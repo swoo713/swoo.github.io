@@ -53,6 +53,11 @@ which page you are on--in this case the home page*/
   background: LightPink;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 section{
 font-family: 'Source Sans Pro', sans-serif;
 padding-left: 2rem;
