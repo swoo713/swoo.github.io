@@ -8,6 +8,7 @@
 
 header {
   font-family: 'Rubik Mono One', sans-serif;
+  padding: 2rem;
   text-align: center;
   background-image: url("https://i.gifer.com/K7Pd.gif");
 }
@@ -56,14 +57,12 @@ img {
 
 section{
 font-family: "Futura", sans-serif;
-color: DeepPink;
 padding-left: 2rem;
 padding-right: 2rem;
 }
 
 article {
   font-family: "futura", sans-serif;
-  color: DeepPink;
   padding-left: 2rem;
   padding-right: 2rem;
 }
