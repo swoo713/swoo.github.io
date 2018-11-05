@@ -13,8 +13,10 @@ header {
 }
 
 body{
-  background-image: url("https://66.media.tumblr.com/adb90907b7715d55cc186ab17a5b7be4/tumblr_oiwyturZ9q1tf8vylo1_1280.png");
+  background-image: url("womensrights.jpg");
 }
+
+
 
 nav ul {
   display: flex;
@@ -53,13 +55,15 @@ img {
 }
 
 section{
-font-family: 'Source Sans Pro', sans-serif;
+font-family: "Futura", sans-serif;
+color: DeepPink;
 padding-left: 2rem;
 padding-right: 2rem;
 }
 
 article {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "futura", sans-serif;
+  color: DeepPink;
   padding-left: 2rem;
   padding-right: 2rem;
 }
