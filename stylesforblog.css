@@ -15,17 +15,14 @@ header {
 body{
   background-image: url("https://66.media.tumblr.com/adb90907b7715d55cc186ab17a5b7be4/tumblr_oiwyturZ9q1tf8vylo1_1280.png");
 }
-/*Unordered list in the navbar is set to display flex with wrapping
-so at smaller size-mobile width--it wraps vertically in a row
-and at larger screen widths it spreads more horizontally.
-And justify-content centers flex blox content*/
+
 nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   list-style-type: none;
 }
-/*Sets background color of nav list elements and their width and height*/
+
 nav ul li {
   font-family: 'Biryani', sans-serif;
   background: LavenderBlush;
@@ -37,18 +34,15 @@ nav ul li {
   border-width: 1px;
   text-align: center;
 }
-/*Takes away the default underlining of links and sets color of menu font*/
 nav ul li a {
   text-decoration: none;
   font-size: 1.2em;
   color: black;
 }
-/*Active psuedoclass is used so When you click on a menu item it turns orange.*/
 nav ul li:active {
   background: DeepPink;
 }
-/*This class should be applied to html differently on each page to let user know
-which page you are on--in this case the home page*/
+
 .locationmarker {
   background: LightPink;
 }
@@ -62,9 +56,10 @@ section{
 font-family: 'Source Sans Pro', sans-serif;
 padding-left: 2rem;
 padding-right: 2rem;
+}
 
 article {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   padding-left: 2rem;
   padding-right: 2rem;
 }
