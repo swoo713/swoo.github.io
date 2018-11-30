@@ -1,3 +1,10 @@
+.pagecontainer {
+  margin: 0px;
+  width: auto;
+  height: auto;
+  padding: 1rem;
+}
+
 body {
   font-family: 'Roboto Condensed', sans-serif;
   align-content: center;
@@ -7,37 +14,62 @@ body {
 
 #container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
   grid-template-rows: .2fr 1fr .2fr;
   max-width: 80vw;
   margin: auto;
 }
-header {
+
+.header{
   grid-row: 1;
-  grid-column: 1 /2;
+  grid-column: 1/2;
+  padding-top: 3rem;
+  font-weight: 900;
+  text-decoration: none;
   color: #8282FC;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-  font-size: 9px;
-}
-section.topnav-right{
-  grid-row: 1;
-  grid-column: 2/4;
-}
-section.topnav-right li {
-  display: inline;
-  float: right;
-  font-size: 19px;
-  font-weight: bold;
-}
-section.topnav-right a{
-  color: #8282FC;
-  padding: 1rem;
-text-decoration: none;
-list-style-type: none;
 }
 
+.projects{
+  grid-row:1;
+  grid-column: 3/4;
+  padding-top: 3rem;
+  padding-right: 1rem;
+  font-weight: 900;
+  text-decoration: none;
+  color: #8282FC;
+}
+
+.excercises{
+  grid-row: 1;
+  grid-column: 4/5;
+  padding-top: 3rem;
+  padding-right: 1rem;
+  font-weight: 900;
+  text-decoration: none;
+  color: #8282FC;
+}
+
+.about{
+  grid-row: 1;
+  grid-column: 5/6;
+  padding-top: 3rem;
+  padding-right: 0.5rem;
+  font-weight: 900;
+  text-decoration: none;
+  color: #8282FC;
+}
+
+.needhelp{
+  grid-row: 1;
+  grid-column: 6/7;
+  padding-top: 3rem;
+  font-weight: 900;
+  text-decoration: none;
+  color: #8282FC;
+}
 footer{
+  grid-row: 3;
+  grid-column: 1/7;
   margin-top: 2rem;
   padding: 2rem;
   text-align: center;
