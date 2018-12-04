@@ -1,0 +1,112 @@
+body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+/** this is the header **/
+
+header{
+color:#a2dbf7;
+padding-top: 5rem;
+padding-right: 5rem;
+padding-left: 5rem;
+padding-bottom: 0rem;
+text-align: center;
+font-size: 6rem;
+font-weight: bold;
+}
+
+header img{
+  padding-right: 0.7rem;
+  justify-content: center;
+
+}
+
+header p{
+  color: #6d6e71;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+/**menu **/
+
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  margin-top:2rem;
+  padding-bottom: 0;
+}
+
+nav ul li{
+  display: inline;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+nav ul li a{
+  padding: 5rem;
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #6d6e71;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  text-decoration: underline #a2dbf7;
+}
+
+nav ul li a:active{
+  text-decoration: underline;
+  color: #a2dbf7;
+}
+/**icons and projects**/
+
+.projects{
+  padding-top: 3rem;
+  padding-right: 5rem;
+  padding-left: 5rem;
+  padding-bottom: 0rem;
+
+
+  justify-content: center;
+  display: block;
+}
+
+figure{
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+
+}
+
+figcaption{
+  font-weight: bold;
+  font-size: 1.5rem;
+  color:#a2dbf7;
+}
+
+
+/**footer**/
+
+footer{
+  margin-top: 7rem;
+  padding: 5rem;
+  border-top: 3px solid #a2dbf7;
+  justify-content: flex-end;
+  text-align: center;
+}
+footer a{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 900;
+  text-decoration: none;
+  color: #6d6e71;
+  align-content: center;
+
+}
