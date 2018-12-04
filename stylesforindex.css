@@ -152,16 +152,6 @@ figure{
   text-align: left;
 
 }
-.projectspink figure{
-  display:block;
-  width: 202px;
-  height: 170px;
-  background-color: #ff54d1;
-  margin: auto;
-  padding: 20px;
-  text-align: left;
-
-}
 
 figure img{
   width: 200px;
@@ -189,7 +179,7 @@ footer a{
 
 }
 
-@media only screen and (min-width:900px) {
+@media screen and (max-width:900px) {
 #container{
   width: 720px;
   margin: 0px;
@@ -209,6 +199,7 @@ footer a{
 
 figure{
   display:block;
+  border-radius: 20px;
   width: 202px;
   height: 170px;
   background-color: #6d67ff;
@@ -224,7 +215,7 @@ figure img{
 }
 
 figcaption{
-  font-weight: bold;
+  font-weight: normal;
   color: #ffd679;
 }
 }
