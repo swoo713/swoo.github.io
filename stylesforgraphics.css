@@ -88,6 +88,9 @@ article h2{
   display: block;
 }
 
+article p{
+  font-family: 'Yrsa', serif;
+}
 
 /**footer**/
 
