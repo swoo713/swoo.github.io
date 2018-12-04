@@ -4,9 +4,7 @@ body {
 
 #container {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-
+  flex-direction: column;
 }
 
 /** this is the header **/
@@ -76,14 +74,14 @@ nav ul li a:active{
   justify-content: center;
 }
 
-figure{
+article{
   margin: auto;
   padding: 10px;
   text-align: left;
 
 }
 
-figcaption{
+article h2{
   font-weight: bold;
   font-size: 1.5rem;
   color:#a2dbf7;
@@ -122,3 +120,4 @@ header{
 nav ul li a {
   padding: 5rem;
 }
+**/

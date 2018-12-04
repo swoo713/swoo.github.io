@@ -1,32 +1,28 @@
-
-/**this sets the body font**/
 body {
   font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 #container {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-
+  flex-direction: column;
 }
 
 /** this is the header **/
 
 header{
+justify-content: center;
 color:#a2dbf7;
 padding-top: 5rem;
 padding-right: 5rem;
 padding-left: 5rem;
 padding-bottom: 0rem;
 text-align: center;
-font-size: 6rem;
+font-size: 400%;
 font-weight: bold;
 }
 
 header img{
   padding-right: 0.7rem;
-  justify-content: center;
 
 }
 
@@ -54,7 +50,7 @@ nav ul li{
 }
 
 nav ul li a{
-  padding: 5rem;
+  padding: 2rem;
   padding-bottom: 1rem;
   font-size: 1.2rem;
   color: #6d6e71;
@@ -75,25 +71,26 @@ nav ul li a:active{
   padding-right: 5rem;
   padding-left: 5rem;
   padding-bottom: 0rem;
-
-
   justify-content: center;
-  display: block;
 }
 
 article{
   margin: auto;
   padding: 10px;
-  text-align: center;
+  text-align: left;
 
 }
 
-article p{
+article h2{
   font-weight: bold;
   font-size: 1.5rem;
   color:#a2dbf7;
+  display: block;
 }
 
+article p{
+  font-family: 'Yrsa', serif;
+}
 
 /**footer**/
 
@@ -113,42 +110,17 @@ footer a{
 
 }
 
-/**@media screen and (max-width:900px) {
+/** for desktop
+@media only and screen (max-width: 900px){
+
 #container{
-  width: 720px;
-  margin: 0px;
+  -webkit-columns: 300px 2;
+}
+header{
+  font-size:600%;
 }
 
-.header{
-  margin: 40px 0px 20px 0px;
-  justify-content: center;
+nav ul li a {
+  padding: 5rem;
 }
-
-.projects{
-  width: 220px;
-  float: left;
-  margin: 10px;
-  height: 198px
-}
-
-figure{
-  display:block;
-  border-radius: 20px;
-  width: 202px;
-  height: 170px;
-  background-color: #6d67ff;
-  margin: auto;
-  padding: 20px;
-  text-align: left;
-
-}
-
-figure img{
-  width: 200px;
-  height: 150px;
-}
-
-figcaption{
-  font-weight: normal;
-  color: #ffd679;
 **/
