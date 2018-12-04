@@ -12,19 +12,19 @@ body {
 /** this is the header **/
 
 header{
+justify-content: center;
 color:#a2dbf7;
 padding-top: 5rem;
 padding-right: 5rem;
 padding-left: 5rem;
 padding-bottom: 0rem;
 text-align: center;
-font-size: 6rem;
+font-size: 400%;
 font-weight: bold;
 }
 
 header img{
   padding-right: 0.7rem;
-  justify-content: center;
 
 }
 
@@ -52,7 +52,7 @@ nav ul li{
 }
 
 nav ul li a{
-  padding: 5rem;
+  padding: 2rem;
   padding-bottom: 1rem;
   font-size: 1.2rem;
   color: #6d6e71;
@@ -73,16 +73,13 @@ nav ul li a:active{
   padding-right: 5rem;
   padding-left: 5rem;
   padding-bottom: 0rem;
-
-
   justify-content: center;
-  display: block;
 }
 
 figure{
   margin: auto;
   padding: 10px;
-  text-align: center;
+  text-align: left;
 
 }
 
@@ -90,6 +87,7 @@ figcaption{
   font-weight: bold;
   font-size: 1.5rem;
   color:#a2dbf7;
+  display: block;
 }
 
 
@@ -109,4 +107,18 @@ footer a{
   color: #6d6e71;
   align-content: center;
 
+}
+
+/** for desktop
+@media only and screen (max-width: 900px){
+
+#container{
+  -webkit-columns: 300px 2;
+}
+header{
+  font-size:600%;
+}
+
+nav ul li a {
+  padding: 5rem;
 }
