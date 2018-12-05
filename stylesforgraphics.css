@@ -50,7 +50,7 @@ nav ul li{
 }
 
 nav ul li a{
-  padding: 2rem;
+  padding: 1rem;
   padding-bottom: 1rem;
   font-size: 1.2rem;
   color: #6d6e71;
@@ -67,29 +67,29 @@ nav ul li a:active{
 /**icons and projects**/
 
 .projects{
-  padding-top: 3rem;
-  padding-right: 5rem;
-  padding-left: 5rem;
-  padding-bottom: 0rem;
-  justify-content: center;
+  padding-bottom: 3rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+ justify-content: center;
 }
 
 article{
-  margin: auto;
-  padding: 10px;
-  text-align: left;
+  padding-left: 1rem;
+  text-align: center;
 
 }
 
-article h2{
-  font-weight: bold;
-  font-size: 1.5rem;
-  color:#a2dbf7;
-  display: block;
+article img{
+  padding-top: 1rem;
+  max-width: 100%;
+  justify-content: center;
 }
+
 
 article p{
-  font-family: 'Yrsa', serif;
+  font-family: 'Source Sans Pro', sans-serif;
+
+  color: #a2dbf7;
 }
 
 /**footer**/
@@ -110,17 +110,17 @@ footer a{
 
 }
 
-/** for desktop
-@media only and screen (max-width: 900px){
+@media (min-width:768px) {
 
-#container{
-  -webkit-columns: 300px 2;
-}
 header{
-  font-size:600%;
+  font-size: 8rem;
 }
 
-nav ul li a {
-  padding: 5rem;
+nav ul li a{
+  padding-right: 8rem;
 }
-**/
+
+article p{
+  font-size: 2rem;
+}
+}
