@@ -83,6 +83,9 @@ article{
 
 article img{
   border-radius: 2rem;
+    padding-top: 1rem;
+    max-width: 100%;
+    justify-content: center;
 }
 article p{
   font-family: 'Source Sans Pro', sans-serif;
