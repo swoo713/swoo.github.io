@@ -1,0 +1,142 @@
+body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+/** this is the header **/
+header {
+  justify-content: center;
+  color: #a2dbf7;
+  padding-top: 5rem;
+  padding-right: 5rem;
+  padding-left: 5rem;
+  padding-bottom: 0rem;
+  text-align: center;
+  font-size: 400%;
+  font-weight: bold;
+}
+
+header img {
+  padding-right: 0.7rem;
+}
+
+header p {
+  color: #6d6e71;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/**menu **/
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 2rem;
+  padding-bottom: 0;
+}
+
+nav ul li {
+  display: inline;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+nav ul li a {
+  padding: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #6d6e71;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline #a2dbf7;
+}
+
+nav ul li a:active {
+  text-decoration: underline;
+  color: #a2dbf7;
+}
+
+/**icons and projects**/
+.projects {
+  padding-bottom: 3rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  justify-content: center;
+}
+
+article {
+  padding-left: 1rem;
+  text-align: center;
+}
+
+article img {
+  padding-top: 1rem;
+  max-width: 100%;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+article p {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #6d6e71;
+  line-height: 1.7rem;
+  text-align: left;
+}
+
+/**footer**/
+footer {
+  margin-top: 7rem;
+  padding: 5rem;
+  border-top: 3px solid #a2dbf7;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+footer h2 {
+  color: #6d6e71;
+  padding-bottom: 1rem;
+}
+
+footer p a {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 900;
+  text-decoration: none;
+  color: #6d6e71;
+  align-content: center;
+  background-color: #a2dbf7;
+  border: solid;
+  padding-top: 0.3rem;
+  padding-bottom: 0.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border-radius: 5px;
+  border-color: #a2dbf7;
+  cursor: pointer;
+}
+
+footer a:hover {
+  background-color: #ffcfbc;
+  border-color: #ffcfbc;
+}
+
+/**for larger screens**/
+@media (min-width:768px) {
+  header {
+    font-size: 8rem;
+  }
+
+  nav ul li a {
+    padding-right: 8rem;
+  }
+
+  article p {
+    font-size: 2rem;
+  }
+}
