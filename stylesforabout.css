@@ -27,7 +27,7 @@ header img {
 header p {
   color: #6d6e71;
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 1rem;
 }
 
 /**menu **/
@@ -113,13 +113,17 @@ article p {
   cursor: pointer;
 }
 
+#container p {
+  padding-top: 2.5rem;
+}
+
 #email {
   text-align: center;
 }
 
-section a:hover {
-  background-color: #6d6e71;
-  border-color: #6d6e71;
+#email a:hover {
+  background-color: #ffcfbc;
+  border-color: #ffcfbc;
 }
 
 /**footer**/
@@ -131,11 +135,12 @@ footer {
   text-align: center;
 }
 
-footer h2{
-    color: #6d6e71;
-    padding-bottom: 1rem;
+footer h2 {
+  color: #6d6e71;
+  padding-bottom: 1rem;
 }
-footer p a{
+
+footer p a {
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-weight: 900;
   text-decoration: none;
@@ -150,11 +155,14 @@ footer p a{
   border-radius: 5px;
   border-color: #a2dbf7;
   cursor: pointer;
+}
 
+footer a:hover {
+  background-color: #ffcfbc;
+  border-color: #ffcfbc;
 }
 
 /**for larger screens**/
-
 @media (min-width:768px) {
   header {
     font-size: 8rem;
