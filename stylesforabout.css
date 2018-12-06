@@ -31,30 +31,29 @@ header p {
 }
 
 /**menu **/
-nav ul {
+nav ul{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   list-style-type: none;
-  margin-top: 2rem;
+  margin-top:2rem;
   padding-bottom: 0;
 }
 
-nav ul li {
+nav ul li{
   display: inline;
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-nav ul li a {
+nav ul li a{
   padding: 1rem;
   padding-bottom: 1rem;
   font-size: 1.2rem;
   color: #6d6e71;
   text-decoration: none;
 }
-
-nav ul li a:hover {
+nav ul li a:hover{
   text-decoration: underline #a2dbf7;
 }
 
@@ -168,10 +167,6 @@ footer a:hover {
     font-size: 8rem;
   }
 
-  header img {
-    height: 7.5rem;
-    width: 7.5rem;
-  }
 
   header p {
     font-size: 1.6rem;

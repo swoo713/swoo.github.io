@@ -132,8 +132,17 @@ footer a:hover {
     font-size: 8rem;
   }
 
+  header img {
+    height: 7.5rem;
+    width: 7.5rem;
+  }
+
+  header p {
+    font-size: 1.6rem;
+  }
+
   nav ul li a {
-    padding-right: 8rem;
+    padding: 6rem;
   }
 
   article p {
