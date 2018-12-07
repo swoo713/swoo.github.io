@@ -168,4 +168,8 @@ footer a:hover {
   article img {
     justify-content: left;
   }
+
+#email{
+  padding-top: 2rem;
+}
 }
