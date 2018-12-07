@@ -56,6 +56,10 @@ nav ul li{
   padding-right: 1rem;
 }
 
+.locationmarker a{
+  color: #a2dbf7;
+}
+
 nav ul li a{
   padding: 1rem;
   padding-bottom: 1rem;
@@ -67,10 +71,7 @@ nav ul li a:hover{
   text-decoration: underline #a2dbf7;
 }
 
-nav ul li a:active{
-  text-decoration: underline;
-  color: orange;
-}
+
 /**icons and projects**/
 
 .projects{

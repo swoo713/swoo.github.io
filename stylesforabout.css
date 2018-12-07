@@ -39,6 +39,10 @@ nav ul{
   border-bottom: 3px solid #a2dbf7;
 }
 
+.locationmarker a{
+  color: #a2dbf7;
+}
+
 nav ul li{
   display: inline;
   padding-left: 1rem;
